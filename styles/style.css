@@ -48,8 +48,8 @@ footer {
 }
 
 .img_button {
-    width: clamp(4vh, 10vh, 10vh);
-    height: clamp(4vh, 10vh, 10vh);
+    width: clamp(1vh, 10vh, 12vh);
+    height: clamp(1vh, 10vh, 12vh);
     background-size: cover;
     background-position: center;
     border: none;
@@ -91,7 +91,7 @@ footer {
 #poema {
     font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem);
     position: absolute;
-    width: 20vh;
+    width: clamp(10vh, 20vh, 25vh);
     text-align: center; 
     right: 0;
     top: 0;
