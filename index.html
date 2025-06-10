@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MoodPlant</title>
+        <meta lang="ru-RU">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="icon" href="./images/my_flover.svg" type="image/x-icon">
+        <script src="./scripts/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="" class="logo">
+                <img src="./images/my_flover.svg" alt="Логотип">
+            </a>
+            <h1>Выбери настроение!</h1>
+        </header>
+
+        <main>
+            <img src="./images/sun.svg" id="main_image">
+            <table border="0" cellpadding="30" cellspacing="0">
+                <tr>
+                    <td><button class="img_button" id="good"></button></td>
+                    <td><button class="img_button" id="norm"></button></td>
+                    <td><button class="img_button" id="bad"></button></td>
+                </tr>
+                <tr>
+                    <td>Отлично!</td>
+                    <td>Нормально</td>
+                    <td>Все плохо</td>
+                </tr>
+            </table>
+
+            <selector id="music_place">
+                <div>
+                    <audio id="backgroundMusic" src="./music/Alexander Demidov - Precious time.mp3" loop></audio>
+                    <button id="playBtn">Воспроизвести музыку</button>
+                    <button id="pauseBtn">Пауза</button>
+                </div>
+                <p id="music_name">Alexander Demidov - Precious time</p>
+            </selector>
+        </main>
+
+        <article id="poema">Солнечный Денек!</article>
+
+        <footer>
+            <cite>2025 MoodPlant</cite>
+        </footer>
+    </body>
+</html>

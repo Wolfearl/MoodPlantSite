@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 241, 191);
+    color: black;
+    font-family: 'Comic Sans MS';
+}
+
+h1 {
+    font-size: clamp(0.75rem, 0.25rem + 2vw, 2rem);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    margin: 2vh;
+}
+
+main {
+    position: relative;
+    min-height: 100%;
+}
+
+table {
+    margin: 5vh auto 0;
+    font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem); 
+}
+
+button {
+    font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem); 
+}
+
+table td{
+    padding: 1vh 5vh;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -0.5vh 1vh rgba(0,0,0,0.1);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.img_button {
+    width: 12vh;
+    height: 12vh;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 7vh;
+    height: 7vh;
+}
+
+#main_image{
+    display: block;
+    margin: 0 auto;
+    margin-top: 12vh;
+    width: 35vh;
+    height: 35vh;
+}
+
+#good {
+    background-image: url('../images/flower_smile.svg');
+}
+
+#norm {
+    background-image: url('../images/flower_norm.svg');
+}
+
+#bad {
+    background-image: url('../images/flower_sad.svg');
+}
+
+#music_place{
+    font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem); 
+    display: block;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#poema {
+    font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem);
+    position: absolute;
+    width: 30vh;
+    text-align: center; 
+    right: 0;
+    top: 0;
+    margin-top: 20vh;
+    margin-right: 2vh;
+}
