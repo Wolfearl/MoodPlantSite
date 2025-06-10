@@ -15,8 +15,8 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1vh;
-    margin: 2vh;
+    gap: 1vw;
+    margin: 2%;
 }
 
 main {
@@ -25,7 +25,7 @@ main {
 }
 
 table {
-    margin: 5vh auto 0;
+    margin: 5vh auto;
     font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem); 
 }
 
@@ -34,7 +34,7 @@ button {
 }
 
 table td{
-    padding: 1vh 5vh;
+    padding: clamp(0.2vh, 1vh, 1.2vh) clamp(4.5vw, 5vw, 5.2vw);
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ footer {
 }
 
 .logo img{
-    width: 7vh;
+    width: 7vw;
     height: 7vh;
 }
 
@@ -65,8 +65,8 @@ footer {
     display: block;
     margin: 0 auto;
     margin-top: 12vh;
-    width: clamp(20vh, 35vh, 37vh);
-    height: clamp(20vh, 35vh, 37vh);
+    width: clamp(10vw, 35vw, 37vw);
+    height: clamp(10vh, 35vh, 37vh);
 }
 
 #good {
@@ -91,10 +91,10 @@ footer {
 #poema {
     font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem);
     position: absolute;
-    width: clamp(5vh, 20vh, 25vh);
+    width: clamp(5vw, 20vw, 25vw);
     text-align: center; 
     right: 0;
     top: 0;
     margin-top: 20vh;
-    margin-right: 2vh;
+    margin-right: 2vw;
 }
