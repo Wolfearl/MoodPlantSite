@@ -65,8 +65,8 @@ footer {
     display: block;
     margin: 0 auto;
     margin-top: 12vh;
-    width: 35vh;
-    height: 35vh;
+    width: clamp(20vh, 35vh, 37vh);
+    height: clamp(20vh, 35vh, 37vh);
 }
 
 #good {
@@ -91,7 +91,7 @@ footer {
 #poema {
     font-size: clamp(0.1rem, 0.2rem + 1vw, 1.5rem);
     position: absolute;
-    width: clamp(10vh, 20vh, 25vh);
+    width: clamp(5vh, 20vh, 25vh);
     text-align: center; 
     right: 0;
     top: 0;
