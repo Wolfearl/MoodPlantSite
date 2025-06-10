@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Замечайте, радуйтесь, берите</p>
                 <p>Радуги, рассветы, звезды глаз —</p>
                 <p>Это все для вас, для вас, для вас.</p>
-                <p>-----------------------------</p>
+                <p>-------------------</p>
                 <p>Эдуард Асадов - Дорожите счастьем</p>`
                 animateImages(images_smile_flower, img, 900); 
             } else if (event.target.id === 'norm') {
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Спит земля в сиянье голубом…</p>
                 <p>Что же мне так больно и так трудно?</p>
                 <p>Жду ль чего? Жалею ли о чем?</p>
-                <p>-----------------------------</p>
+                <p>-------------------</p>
                 <p>Михаил Лермонтов - Выхожу один я на дорогу…</p>`
                 musicName.innerHTML = 'Royal classical love';
                 animateImages(images_normal_flower, img, 900); 
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Нет утешенья ни в ком.</p>
                 <p>Ходишь едва-то дыша.</p>
                 <p>Мрачно и дико кругом.</p>
-                <p>-----------------------------</p>
+                <p>-------------------</p>
                 <p>Сергей Есенин - Грустно...</p>`
                 animateImages(images_sad_flower, img, 900);
             };
