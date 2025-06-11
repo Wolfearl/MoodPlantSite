@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         animationId = requestAnimationFrame(step);
     }
 
-    animateImages(images_sun, img, 900);
+    animateImages(images_sun, img, 500);
 
     buttons.forEach(button => {
         button.addEventListener('click', function(event) {
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Это все для вас, для вас, для вас.</p>
                 <p>-------------------</p>
                 <p>Эдуард Асадов - Дорожите счастьем</p>`
-                animateImages(images_smile_flower, img, 900); 
+                animateImages(images_smile_flower, img, 500); 
             } else if (event.target.id === 'norm') {
                 img.src = images_normal_flower[0];
                 audio.pause();
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>-------------------</p>
                 <p>Михаил Лермонтов - Выхожу один я на дорогу…</p>`
                 musicName.innerHTML = 'Royal classical love';
-                animateImages(images_normal_flower, img, 900); 
+                animateImages(images_normal_flower, img, 500); 
             } else if (event.target.id === 'bad') {
                 img.src = images_sad_flower[0];
                 audio.pause();
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Мрачно и дико кругом.</p>
                 <p>-------------------</p>
                 <p>Сергей Есенин - Грустно...</p>`
-                animateImages(images_sad_flower, img, 900);
+                animateImages(images_sad_flower, img, 500);
             };
         });
     });
